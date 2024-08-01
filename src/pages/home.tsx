@@ -1,7 +1,9 @@
+import NailTop from "../layouts/home/nailtop"
+
 const Home=()=>{
     return (
         <div>
-            Home
+           <NailTop />
         </div>
     )
 }
