@@ -1,5 +1,64 @@
+.fiexedNailtop{
+    position: fixed;
+    width:100%;
+    z-index: 6;
+    color: white;
+}
 .nailtop{
-    width: 100%;
-    height: 1.1rem;
-    background-color: red;
+    width: 80%;
+    margin: 0 auto;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-around;
+    .logofont{
+      height: inherit;
+      img{
+        object-fit: cover;
+        height: 100%;
+      }
+
+    }
+    .nailCenter{
+        width: 60%;
+        position:relative;
+        ul{
+            left:0px;
+            position: absolute;
+            li{
+                float: left;
+                margin-left: 20px;
+                position: relative;
+                top: 1.3rem;
+            }
+            li:hover{
+                cursor: pointer;
+                color: $theme-color
+            }
+        }
+    }
+}
+.logoName{
+    position: relative;
+    top: 11%;
+    left: 7%;
+    font-size:19px;
+}
+.buttonEnter{
+    width: 10%;
+    position: relative;
+    button{
+        position: absolute;
+        top: 30%;
+        background-color: $theme-colorop;
+        padding: 12px 12px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+
+    }
+
+}
+.CarouselPhoto{
+    height: 100vh;
+
 }

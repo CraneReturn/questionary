@@ -1,5 +1,29 @@
 .nailtop {
   width: 100%;
-  height: 1.1rem;
-  background-color: red;
+  height: 3.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nailtop .logofont {
+  height: inherit;
+}
+
+.nailtop .logofont img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.nailtop .nailCenter {
+  width: 50%;
+}
+
+.nailtop .nailCenter ul li {
+  float: left;
+  margin-left: 20px;
+}
+
+.nailtop .nailCenter ul li:hover {
+  cursor: pointer;
+  color: theme-color;
 }

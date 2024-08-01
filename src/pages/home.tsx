@@ -1,9 +1,16 @@
 import NailTop from "../layouts/home/nailtop"
-
-const Home=()=>{
+import CarouselPhoto from "../layouts/home/Carousel"
+import TextHomeshow from "../layouts/home/textHome"
+import StaticRecord from "../layouts/home/staticRecord"
+const Home = () => {
     return (
-        <div>
-           <NailTop />
+        <div className="homeCenter">
+            <NailTop />
+            <div className="centerMainCarouse">
+                <CarouselPhoto />
+                <TextHomeshow />
+            </div>
+            <StaticRecord/>
         </div>
     )
 }
