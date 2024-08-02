@@ -38,7 +38,6 @@ li {
 .homeCenter {
     overflow-y: scroll;
     height: 100vh;
-
     &::-webkit-scrollbar {
         width: 5px;
     }
@@ -47,4 +46,9 @@ li {
         background-color: #69b1ff;
         border-radius: 10px;
     }
+}
+a {
+    text-decoration: none;
+    color: inherit; 
+    cursor: default;
 }

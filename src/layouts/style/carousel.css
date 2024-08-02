@@ -70,7 +70,7 @@
 
 .staticRecords {
   width: 100%;
-  height: 30vh;
+  height: 20vh;
   background-color: white;
   color: #212121;
 }
@@ -78,4 +78,11 @@
 .staticRecords .staticRecordsCenter {
   width: 72%;
   margin: 0 auto;
+  font-size: 40px;
+  line-height: 15vh;
+}
+
+.paddingTextRecords {
+  padding-left: 20px;
+  padding-right: 20px;
 }

@@ -28,7 +28,7 @@ const NailTop = () => {
     )
     return (
        <div className='fiexedNailtop'>
-         <div className='nailtop'>
+         <div className='nailtop' id='topNail'>
             <div className='logofont'>
                 <img src={Logo} alt="" />
                 <span className='logoName'>

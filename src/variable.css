@@ -45,3 +45,9 @@ li {
   background-color: #69b1ff;
   border-radius: 10px;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: default;
+}
