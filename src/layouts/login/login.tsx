@@ -1,5 +1,6 @@
 // 用户注册页面
 import '../style/login/login.scss'
+import { Button } from 'antd';
 const loginPart = () => {
     return   <div className="loginPassword">
     <p className="title">密码登录</p>
@@ -19,13 +20,13 @@ const loginPart = () => {
           v-model="password"
           placeholder="请输入密码"
         />
-        <button className="forget" >忘记密码</button>
+        <Button className="forget" >忘记密码</Button>
       </div>
     </div>
     <div>
       <div className="loginBtn">
-        <button className="signIn" >注册</button>
-        <button className="loginIt" >登录</button>
+        <Button className="signIn" >注册</Button>
+        <Button className="loginIt" >登录</Button>
       </div>
       <span className="changeLogin">验证码注册</span>
     </div>

@@ -3,57 +3,16 @@
   padding: 0;
 }
 
-.loginIndex {
-  position: fixed;
-  display: flex;
+.login {
   width: 800px;
-  height: 500px;
+  height: 475px;
   background-color: #fff;
   border-radius: 5px;
+  position: fixed;
   z-index: 100;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.logo .logoTop {
-  height: 50px;
-  display: flex;
-}
-
-.logo .logoTop p {
-  color: #809be5;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 50px;
-}
-
-.logo .logoImage {
-  height: 100%;
-}
-
-.canvasCode {
-  width: 200px;
-  height: 200px;
-}
-
-.canvasCode canvas {
-  width: 200px !important;
-  height: 200px !important;
-  aspect-ratio: 200/200;
-}
-
-.login {
-  min-width: 550px;
-  height: 395px;
-  padding: 0 20px;
-  border-radius: 5px;
-  background-color: #fff;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1000;
 }
 
 .login .loginTop {
@@ -64,9 +23,24 @@
   border-bottom: 1px solid rgba(228, 230, 235, 0.7);
 }
 
+.login .loginTop .logoIt {
+  height: 100%;
+}
+
 .login .loginTop .title {
   font-size: var(--el-font-size-large);
   letter-spacing: 0.5px;
+  height: 100%;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.login .loginTop .title h1 {
+  color: #809be5;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 50px;
 }
 
 .login .loginTop .cancelLogin {
@@ -96,8 +70,8 @@
   align-items: center;
 }
 
-.login .logo svg {
-  width: 150px;
+.login .logo .logoText {
+  height: 80px;
 }
 
 .login .logo .loginOther .loginTitle {
@@ -148,17 +122,17 @@
 }
 
 .login .loginFoot {
-  padding: 6px;
+  padding: 10px;
 }
 
 .login .loginFoot p {
   text-align: center;
-  color: var(--el-text-color-placeholder);
-  font-size: var(--el-font-size-base);
+  color: #a8abb2;
+  font-size: 14px;
 }
 
 .login .loginFoot p span {
-  color: var(--el-color-success-light-5);
+  color: #79bbff;
   cursor: pointer;
 }
 

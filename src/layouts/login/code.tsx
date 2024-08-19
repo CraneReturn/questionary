@@ -1,10 +1,17 @@
 // 二维码扫码登录
+import { QRCode } from "antd";
 const QR = () => {
   return (
     <div className="QR">
       <p>扫描二维码登录</p>
       <div className="code">
-        <img src="@/asset/QR.jpg" alt="二维码登录" />
+        <QRCode
+          value={
+            "https://github.com/ant-design/ant-design/edit/master/components/qr-code/demo/base.tsx"
+          }
+          size={200}
+          errorLevel="H"
+        />
       </div>
     </div>
   );
