@@ -1,7 +1,9 @@
-import { createBrowserRouter } from "react-router-dom";
+import { Navigate, createBrowserRouter } from "react-router-dom";
 import Home from "../pages/home";
 import AdminHome from "../pages/admin";
-
+import path from "path";
+import Element from "antd/es/skeleton/Element";
+import HomePageAdmin from "../layouts/admin/home/homepage";
 const router = createBrowserRouter([
     {
         path: '/',
@@ -12,9 +14,12 @@ const router = createBrowserRouter([
     },
     {
         path: '/admin',
-        element: <AdminHome />,
+        element: <AdminHome/>,
         children: [
-
+           {
+            path:"home",
+            element:<HomePageAdmin/>
+           }
         ],
     },
 ])
