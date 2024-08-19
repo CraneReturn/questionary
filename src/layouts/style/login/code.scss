@@ -1,0 +1,67 @@
+.loginCode {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .title {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+  .inputCode {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    input {
+      border-radius: 4px;
+    }
+    .code {
+      display: flex;
+      align-items: center;
+      position: relative;
+      label {
+        position: absolute;
+        right: 0;
+        padding: 0 15px;
+        height: 40px;
+      }
+      .getCode {
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 12.5px;
+        color: var(--el-color-success-light-5);
+        transition-duration: 0.2s;
+      }
+      label:focus-within + .authCode {
+        background-color: var(--el-color-white);
+        outline: 1px solid var(--el-color-success);
+      }
+    }
+  }
+  .countLogin {
+    height: 40px;
+    text-align: center;
+    width: 100%;
+  }
+  .changeLogin {
+    margin-top: 5px;
+    font-size: 14px;
+    float: right;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+.QR {
+  p {
+    font-size: 14px;
+    color: #cecece;
+  }
+  .code {
+    width: 100%;
+    height: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
