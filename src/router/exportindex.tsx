@@ -1,6 +1,7 @@
-import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
+import { AppstoreOutlined, MailOutlined, SettingOutlined, UserOutlined } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 import { Menu } from 'antd';
+import React from 'react';
 
 type MenuItem = Required<MenuProps>['items'][number];
 const items: MenuItem[] = [
@@ -9,23 +10,20 @@ const items: MenuItem[] = [
         label: '首页',
         icon: <MailOutlined />,
     },
-    // {
-    //     key: 'sub2',
-    //     label: 'Navigation Two',
-    //     icon: <AppstoreOutlined />,
-    //     children: [
-    //         { key: '5', label: 'Option 5' },
-    //         { key: '6', label: 'Option 6' },
-    //         {
-    //             key: 'sub3',
-    //             label: 'Submenu',
-    //             children: [
-    //                 { key: '7', label: 'Option 7' },
-    //                 { key: '8', label: 'Option 8' },
-    //             ],
-    //         },
-    //     ],
-    // },
+    {
+        key: '/admin/userMange',
+        label: '用户管理',
+        icon: <UserOutlined />,
+    },
+        {
+        key: '',
+        label: '问卷管理',
+        icon: <SettingOutlined />,
+        children: [
+            { key: '9', label: '问卷模板' },
+            { key: '10', label: '问卷举报' },
+        ],
+    }
     // {
     //     type: 'divider',
     // },

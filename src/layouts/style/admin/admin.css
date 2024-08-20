@@ -68,3 +68,115 @@
   border-radius: 50%;
   height: 6vh;
 }
+
+.adminTextback {
+  width: 100%;
+}
+
+.adminTextback img {
+  width: 60%;
+}
+
+.statistic {
+  max-width: 85%;
+  margin-top: 20px;
+  background-color: #dee2ee;
+  border-radius: 5px;
+}
+
+.statistic .el-col {
+  text-align: center;
+}
+
+.statistic .el-statistic {
+  --el-statistic-content-font-size: 20px;
+}
+
+.statistic .statistic-card {
+  height: 100%;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.statistic .statistic-card .iconfont {
+  font-size: 25px;
+}
+
+.statistic .statistic-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: var(--el-text-color-regular);
+}
+
+.statistic .statistic-footer .footer-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.statistic .statistic-footer .footer-item span:last-child {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 4px;
+}
+
+.memberManage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.moreInfo {
+  height: 80%;
+  background-color: #ebebeb;
+  border-radius: 3px;
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.moreInfo .echarts {
+  width: 55%;
+  border-radius: 4px;
+  background-color: #fff;
+  margin: 10px;
+  margin-left: 0;
+  padding: 10px;
+}
+
+.moreInfo .principalInfo {
+  width: 40%;
+  border-radius: 4px;
+  background-color: #fff;
+  margin: 10px;
+  margin-right: 0;
+  padding: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  padding: 20px 10px;
+  align-items: center;
+}
+
+.title .searchMember {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.tableShow {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
