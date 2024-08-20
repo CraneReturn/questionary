@@ -1,0 +1,26 @@
+.notFoundMain {
+    width: 100%;
+
+    .notFoundMainCenter {
+        width: 40%;
+        text-align: center;
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+}
+
+.returnButton {
+    p {
+        letter-spacing: 2px;
+        color: rgb(43, 43, 43);
+    }
+}
+
+.returnButton:hover {
+    cursor: pointer;
+}

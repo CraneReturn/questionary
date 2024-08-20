@@ -4,6 +4,7 @@ import AdminHome from "../pages/admin";
 import path from "path";
 import Element from "antd/es/skeleton/Element";
 import HomePageAdmin from "../layouts/admin/home/homepage";
+import NotFound from "@/pages/notfound";
 const router = createBrowserRouter([
     {
         path: '/',
@@ -14,13 +15,21 @@ const router = createBrowserRouter([
     },
     {
         path: '/admin',
-        element: <AdminHome/>,
+        element: <AdminHome />,
         children: [
-           {
-            path:"home",
-            element:<HomePageAdmin/>
-           }
+            {
+                path: "home",
+                element: <HomePageAdmin />
+            }
         ],
+    },
+    {
+        path: '*',
+        element: <Navigate to="/404" replace />,
+    },
+    {
+        path: '404',
+        element: <NotFound />,
     },
 ])
 
