@@ -41,6 +41,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+没写完就写了个首页的样式 用懒加载实现了个动态效果
 
-To learn React, check out the [React documentation](https://reactjs.org/).
